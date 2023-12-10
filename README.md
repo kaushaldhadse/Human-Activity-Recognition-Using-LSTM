@@ -23,7 +23,7 @@ The dataset contains ‘.txt’ files which contain signal data from the sensors
 There are a total nine types of signals in the dataset : **_"body_acc_x_","body_acc_y_","body_acc_z_","body_gyro_x_","body_gyro_y_","body_gyro_z_","total_acc_x_","total_acc_y_","total_acc_z_".-**
 
  These files were loaded in numpy arrays X_train, X_test, y_train and y_test. 
-For this task, the functions ‘**_load_x-**’ and ‘**_load_y_**’were created.
+For this task, the functions ‘**_get_x-**’ and ‘**_get_y_**’were created.
 
 
 ## Model Description
