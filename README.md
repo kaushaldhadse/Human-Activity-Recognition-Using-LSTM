@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project gives a step-by-step explanation on how to build a **Human activity Recognition (HAR) Model** using Deep Learning. 
+This project gives an explanation on how to build a **Human activity Recognition (HAR) Model** using Deep Learning. 
 
 Human Activity Recognition is a topic on which wide research is going on. These activities are recognized using the sensor readings. The main goal of this project is to train a Deep Learning model using these readings for this task.
 
@@ -39,6 +39,6 @@ For multi-categorical classification, **_Softmax_** activation was utilized alon
 
 ## Result
 
-The model reached an impressive final accuracy of **_91.48%_**. This was achieved with a batch size of 32 and 20 epochs. 
+The model reached an impressive final accuracy of approximately **_91%_**. This was achieved with a batch size of 32 and 20 epochs. 
 
 To tackle overfitting, a **_dropout probability_** of 0.7 was maintained in both dropout layers, effectively reducing variance.
