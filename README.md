@@ -36,7 +36,7 @@ For multi-categorical classification, **_Softmax_** activation was utilized alon
 
 **_Dropout layers_** are strategically integrated to mitigate variance and prevent overfitting. After the model was compiled, various combinations of **_'epochs'_** and **_'batch_size'_** were experimented with to achieve the desired accuracy.
 
-[This](https://github.com/kaushaldhadse/Human-Activity-Recognition-Using-LSTM/blob/main/HAR.ipynb) file contains the code for creating the model. The path of the dataset needs to be changed according to you.
+[This ](https://github.com/kaushaldhadse/Human-Activity-Recognition-Using-LSTM/blob/main/HAR.ipynb) file contains the code for creating the model. The path of the dataset needs to be changed according to you.
 
 ## Result
 
