@@ -30,7 +30,9 @@ For this task, the functions ‘**_load_x-**’ and ‘**_load_y_**’were creat
 
 The **_LSTM_** model is commonly utilized for Human Activity Recognition (HAR) due to its efficacy in handling time-series data. The model consists of four layers: **_LSTM Layer-1, Dropout Layer-1, LSTM Layer-2, Dropout Layer-2_**. 
 
-The **_Adam optimizer_**, known for its efficiency in optimization, was employed. For multi-categorical classification, **_Softmax_** activation was utilized along with the **_"categorical_crossentropy"_** loss function, suitable for cases where the output variables (y_train, y_test) are one-hot encoded.
+The **_Adam optimizer_**, known for its efficiency in optimization, was employed. 
+
+For multi-categorical classification, **_Softmax_** activation was utilized along with the **_"categorical_crossentropy"_** loss function, suitable for cases where the output variables (y_train, y_test) are one-hot encoded.
 
 **_Dropout layers_** are strategically integrated to mitigate variance and prevent overfitting. After the model was compiled, various combinations of **_'epochs'_** and **_'batch_size'_** were experimented with to achieve the desired accuracy.
 
